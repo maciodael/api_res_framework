@@ -8,8 +8,9 @@
 #Una ves ingresado cambias los datos de DATABASES con los de tubase de datos.
 
 #Ejemplo
+
 #DATABASES = {
-#   'default': {
+# 'default': {
 #        'ENGINE': 'django',
 #        'NAME': 'Mi_Base', # Nombre de la base de datos
 #        'HOST':'', # Ruta de la host ejemplo: mongodb://juan:clave123@259144.mlab.com:27001/Mi_Base 
