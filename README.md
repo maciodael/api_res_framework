@@ -3,13 +3,14 @@
 #Probado en Windows 10 con Django 3.1 
 
 
-#Paso 1 "Instalacion de la Base de Datos"
+# Paso 1 "Instalacion de la Base de Datos"
+
 #Instalar la base de datos de mongo en Django, ingresa al archo api_res_framework\ProyectoRes\ProyectoRes\settings.py
 #Una ves ingresado cambias los datos de DATABASES con los de tubase de datos.
 
-#Ejemplo
+# Ejemplo
 
-#DATABASES = {
+# DATABASES = {
 # 'default': {
 #        'ENGINE': 'django',
 #        'NAME': 'Mi_Base', # Nombre de la base de datos
@@ -18,16 +19,15 @@
 #        'PASSWORD':'clave1', # tu contraseña de mongodb
         
 #    }
-#}
+# }
 
 #Guardas los cambios y ingresas a la tu consola y escribes
 
-# python manage.py migrate #Este comado ara que cargue la base de datos que tienes en tu Django
+#python manage.py migrate #Este comado ara que cargue la base de datos que tienes en tu Django
 
-# Solo podras ejecutar este comando si estas dentro de tu proyecto caso contrario no funcionara
+#Solo podras ejecutar este comando si estas dentro de tu proyecto caso contrario no funcionara
 
-# Revisa que los datos que tenias en tu Django se ayan implementado en tu base de datos.
-
+#Revisa que los datos que tenias en tu Django se ayan implementado en tu base de datos.
 
 # Paso 2 "Creacion de Super Usuario"
 
@@ -35,5 +35,5 @@
 
 # createsuperuser
 
-#una ves creado al super usuario ya puedes poner a correr a tu servidor y probar el repositorio
+#Una ves creado al super usuario ya puedes poner a correr a tu servidor y probar el repositorio
 
